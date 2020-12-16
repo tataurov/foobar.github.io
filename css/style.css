@@ -624,3 +624,18 @@ i {
 .credits {
   color: #999;
 }
+
+/* additions */
+.text-slides-content__nav-item {
+  cursor: pointer;
+}
+
+.text-slides-content__slide {
+  opacity: 0;
+  display: none;
+}
+
+.text-slides-content__slide.active {
+  opacity: 1;
+  display: block;
+}
