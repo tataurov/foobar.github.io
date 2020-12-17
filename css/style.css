@@ -82,7 +82,7 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  #process .content-row h2 {
+  #services .content-row h2 {
     min-height: 6em;
   }
 }
@@ -314,13 +314,13 @@ i {
   }
 }
 
-#process {
+#services {
   background-color: #34495e;
   color: #e4e6e5;
   padding-top: 90px;
 }
 
-#process i {
+#services i {
   font-size: 80px;
   color: white;
 }
@@ -638,4 +638,9 @@ i {
 .text-slides-content__slide.active {
   opacity: 1;
   display: block;
+}
+
+#services .content-row h2 {
+  padding-bottom: 0;
+  min-height: 3em;
 }
