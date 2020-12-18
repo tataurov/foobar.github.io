@@ -672,7 +672,40 @@ i {
   min-height: 3em;
 }
 
+.languages {
+  position: absolute; right: 10px;
+  display: flex;
+  top: 13px;
+}
+
+.languages a:hover,
+.languages a:visited,
+.languages a:focus,
+.languages a {
+  margin: 0 5px;
+  display: block;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+
+.languages a.active:visited,
+.languages a.active:hover,
+.languages a.active.focus,
+.languages a.active {
+  background: #fff;
+  color: #999;
+}
+
 @media (max-width: 767px) {
+  .languages {
+    position: absolute; right: auto;
+    display: flex;
+    top: 16px;
+    left: 5px;
+  }
+
   .content-row_logos {
     display: block;
   }
