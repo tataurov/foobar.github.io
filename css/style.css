@@ -110,7 +110,7 @@ body {
 }
 
 #intro {
-  background-image: url('../img/bg1.jpg');
+  background-image: url('https://tataurov.github.io/foobar.github.io/img/bg1.jpg');
   color: #ffffff;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -524,7 +524,7 @@ i {
 }
 
 .zoom {
-  background-image: url('../img/zoom.png');
+  background-image: url('https://tataurov.github.io/foobar.github.io//img/zoom.png');
   background-position: center center;
   background-repeat: no-repeat;
   height: 100%;
@@ -545,7 +545,7 @@ i {
 }
 
 #arrows div {
-  background-image: url('../img/website-arrows.png');
+  background-image: url('https://tataurov.github.io/foobar.github.io/img/website-arrows.png');
   cursor: pointer;
   height: 30px;
   position: absolute;
