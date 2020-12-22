@@ -384,13 +384,7 @@ i {
   max-width: 100%;
 }
 
-#contact-row-4 .col-12:hover {
-  height: 175px;
-  padding-top: 0;
-}
-
 #contact-row-4 .col-12 .hover-text {
-  display: none;
   font-size: 20px;
 }
 
@@ -517,10 +511,6 @@ i {
   position: fixed;
   width: 100%;
   z-index: 99999;
-}
-
-.with-hover-text span {
-  display: none;
 }
 
 .zoom {
